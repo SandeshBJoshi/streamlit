@@ -1,2 +1,2 @@
 import streamlit as st
-st.title("pstar.gavade.com")
+st.title("king gavade.com")
