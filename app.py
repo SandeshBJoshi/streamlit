@@ -1,2 +1,2 @@
 import streamlit as st
-st.title("my first steamlit app,avade")
+st.title("my first steamlit app, gavade")
