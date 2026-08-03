@@ -1,5 +1,9 @@
 import streamlit as st
-st.title("king gavade.com")
-name=st.text_input("Enter your name")
-if st.button("submit"):
-  st.write(f"Hello {name}")
+st.title("Checking the person eligible for vvote or not")
+age = st.number_input("Enter your age:")
+if st.button("Submit"):
+  if age >= 18:
+    st.success("you are eligible to vote...")
+  else:
+    st.write("not eligible to vote...")
+
